@@ -31,8 +31,8 @@ const initialNodes: Node<GuidelineNodeData>[] = [
             label: 'Is the patient HIV positive?',
             description: 'Check records or ask.',
             outputs: [
-                { id: 'yes', label: 'Yes' },
-                { id: 'no', label: 'No' },
+                { id: 'yes', label: 'Yes', target: '2' },
+                { id: 'no', label: 'No', target: '3' },
             ],
             isEntry: true,
         },

@@ -289,6 +289,7 @@ export default function GuidelineEditorPage() {
                                 onConnect={onConnect}
                                 onNodeClick={(_, node) => setSelectedNodeId(node.id)}
                                 fitView
+                                className="touchFlow"
                             >
                                 <MiniMap />
                                 <Controls />

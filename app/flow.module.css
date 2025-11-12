@@ -1,0 +1,12 @@
+.react-flow.touchFlow .react-flow__handle {
+    width: 20px;
+    height: 20px;
+}
+
+.touchFlow .react-flow__handle-right {
+    --translate: translate(50%, -50%);
+}
+
+.touchFlow .react-flow__handle-left {
+    --translate: translate(-50%, -50%);
+}
